@@ -87,7 +87,7 @@ class AbandonedCartController extends Controller
         $client = new \MailchimpMarketing\ApiClient();
 
         $client->setConfig([
-            'apiKey' => 'e8ff75b0efdff349f7ca19207695aca5-us5',
+            'apiKey' => '',
             'server' => 'us5',
         ]);
 
@@ -125,7 +125,7 @@ class AbandonedCartController extends Controller
         // );
 
         // $mailchimp = new MailchimpTransactional\ApiClient();
-        // $mailchimp->setApiKey('e8ff75b0efdff349f7ca19207695aca5-us5');
+        // $mailchimp->setApiKey('');
 
         // $response = $mailchimp->subaccounts->list();
     
